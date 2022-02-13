@@ -1,0 +1,42 @@
+.create-note-header {
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  margin: 20px 0;
+}
+.create-note-form {
+  width: max-content;
+  margin: 0 auto;
+}
+.create-note-form-textarea {
+  height: 250px;
+  width: 300px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+.create-note-form-textbox {
+  width: 300px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.create-note-button-wrap {
+  text-align: center;
+  margin-top: 6px;
+}
+
+.create-note-button {
+  margin: 2px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: blue;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.create-note-button:hover {
+  background-color: rgb(8, 8, 122);
+}
+.create-note-button:active {
+  transform: scale(0.9);
+}
