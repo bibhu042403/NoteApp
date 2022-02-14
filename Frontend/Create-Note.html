@@ -10,47 +10,49 @@
     <title>Create Notes</title>
   </head>
   <body>
-    <nav class="nav-navigation-bar">
-      <h1 class="heading-navigation-bar">Notes</h1>
-      <ul class="list-navigation-bar">
-        <li class="list-item-navigation-bar">
-          <a class="list-item-navigation-bar" href="./index.html">Home</a>
-        </li>
-        <li class="list-item-navigation-bar">
-          <a class="list-item-navigation-bar" href="View-Note.html"
-            >View Note</a
-          >
-        </li>
-        <li class="list-item-navigation-bar">
-          <a
-            class="list-item-navigation-bar list-item-navigation-bar-active"
-            href="./Create-Note.html"
-            >Create Note</a
-          >
-        </li>
-      </ul>
-    </nav>
+    <div class="maindiv">
+      <nav class="nav-navigation-bar">
+        <h1 class="heading-navigation-bar">Notes</h1>
+        <ul class="list-navigation-bar">
+          <li class="list-item-navigation-bar">
+            <a class="list-item-navigation-bar" href="./index.html">Home</a>
+          </li>
+          <li class="list-item-navigation-bar">
+            <a class="list-item-navigation-bar" href="View-Note.html"
+              >View Note</a
+            >
+          </li>
+          <li class="list-item-navigation-bar">
+            <a
+              class="list-item-navigation-bar list-item-navigation-bar-active"
+              href="./Create-Note.html"
+              >Create Note</a
+            >
+          </li>
+        </ul>
+      </nav>
 
-    <div class="create-note-header">Create Note</div>
-    <div class="create-note-form">
-      <textarea
-        class="create-note-form-textarea"
-        placeholder="Write Notes Here....."
-        id="note-text"
-      ></textarea>
+      <div class="create-note-header">Create Note</div>
+      <div class="create-note-form">
+        <textarea
+          class="create-note-form-textarea"
+          placeholder="Write Notes Here....."
+          id="note-text"
+        ></textarea>
 
-      <div>
-        <input
-          class="create-note-form-textbox"
-          placeholder="Author name"
-          id="author-text"
-          type="text"
-        />
-      </div>
-      <div class="create-note-button-wrap">
-        <button class="create-note-button" onclick="createNote()">
-          Save Notes
-        </button>
+        <div>
+          <input
+            class="create-note-form-textbox"
+            placeholder="Author name"
+            id="author-text"
+            type="text"
+          />
+        </div>
+        <div class="create-note-button-wrap">
+          <button class="create-note-button" onclick="createNote()">
+            Save Notes
+          </button>
+        </div>
       </div>
     </div>
 
