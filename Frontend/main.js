@@ -1,6 +1,6 @@
 const fetchNotes = async () => {
   const response = await axios({
-    url: "http://https://netapp.herokuapp.com/",
+    url: "https://netapp.herokuapp.com/",
     method: "GET",
   });
   const noteList = response.data;
