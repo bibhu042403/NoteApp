@@ -16,6 +16,9 @@ body {
   background-color: rgba(9, 9, 78, 0.6);
   padding: 0 20px 0 20px;
 }
+.heading-navigation-bar {
+  text-decoration: none;
+}
 .heading-navigation-bar,
 .list-item-navigation-bar {
   color: burlywood;
