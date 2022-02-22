@@ -4,7 +4,7 @@ const createNote = async () => {
 
   //connecting with server side
   const response = await axios({
-    url: "http://127.0.0.1:4400",
+    url: "http://https://netapp.herokuapp.com/",
     method: "POST",
     data: {
       notes: noteText,
