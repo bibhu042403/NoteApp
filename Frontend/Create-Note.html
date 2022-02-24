@@ -10,8 +10,7 @@
     <title>Create Notes</title>
   </head>
   <body>
-    <div class="maindiv">
-      <nav class="nav-navigation-bar">
+    <!--<nav class="nav-navigation-bar">
         <a class="heading-navigation-bar" href="./index.html">NoteApp</a>
         <ul class="list-navigation-bar">
           <li class="list-item-navigation-bar">
@@ -30,8 +29,17 @@
             >
           </li>
         </ul>
-      </nav>
+      </nav>-->
 
+    <div class="sidebar">
+      <h2>NoteApp</h2>
+      <a class="active" href="./index.html">Home</a>
+      <a href="View-Note.html">View-Notes</a>
+      <a href="Create-Note.html">Create-Notes</a>
+      <a href="#about">About</a>
+    </div>
+
+    <div class="content">
       <div class="create-note-header">Create Note</div>
       <div class="create-note-form">
         <textarea
@@ -56,6 +64,36 @@
       </div>
     </div>
 
+    <!--<div class="create-note-header">Create Note</div>
+      <div class="create-note-form">
+        <textarea
+          class="create-note-form-textarea"
+          placeholder="Write Notes Here....."
+          id="note-text"
+        ></textarea>
+
+        <div>
+          <input
+            class="create-note-form-textbox"
+            placeholder="Author name"
+            id="author-text"
+            type="text"
+          />
+        </div>
+        <div class="create-note-button-wrap">
+          <button class="create-note-button" onclick="createNote()">
+            Save Notes
+          </button>
+        </div>
+      </div>-->
+
+    <div class="social-media">
+      <img src="./img/insta.png" />
+      <img src="./img/fb.png" />
+      <img src="./img/twt.png" />
+    </div>
+
     <script src="./Create-Note.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>
