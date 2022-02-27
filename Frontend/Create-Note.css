@@ -1,8 +1,12 @@
+.content1 {
+  overflow-y: auto;
+}
 .create-note-header {
   font-size: 40px;
   font-weight: 800;
   text-align: center;
-  margin: 20px 0;
+  margin: 10px 0;
+  color: bisque;
 }
 .create-note-form {
   width: max-content;

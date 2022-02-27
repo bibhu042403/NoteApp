@@ -1,4 +1,5 @@
 .view-note-header {
+  color: bisque;
   font-size: 40px;
   font-weight: 800;
   text-align: center;
@@ -6,14 +7,18 @@
 }
 .view-note-unlist {
   display: grid;
+  padding-right: 10px;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 80px;
 }
 .view-note-list {
   width: 300px;
   box-shadow: 0 0 10px 0 #0003;
   border-radius: 4px;
-  background-color: rgba(0, 0, 0, 0.151);
+  background-color: rgba(253, 243, 243, 0.445);
   margin: 10px auto;
+  margin-left: 10px;
+  margin-right: 10px;
   list-style-type: none;
   padding: 10px;
 }
@@ -23,6 +28,12 @@
   padding: 5px;
   font-weight: 500;
 }
+.data-content {
+  width: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
 @media screen and (max-width: 700px) {
   .view-note-unlist {
     display: inline-block;
